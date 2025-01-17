@@ -92,29 +92,130 @@ header {
     height: 100%;
     margin-bottom: 30px;
 }
-/* Responsive Media Query */ 
 
-@media screen and ( max-width:576px) {
+/* Quick list of Our Features */
+.Features {
+    gap: 80px;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 144, 14, 0.1);
+    border-radius: 8px;
+
+}
+
+.Features-team {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Features-title {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: left;
+    padding-right: 200px;
+    margin-bottom: -10px;
+}
+
+.Features-description {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+#Quick {
+    color: rgb(114, 114, 114);
+}
+
+#Feat {
+    color: rgb(255, 136, 0);
+}
+
+#Explore {
+    border: 0px solid;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+}
+
+/* Responsive Media Query */
+
+@media screen and (max-width:576px) {
 
     .navbar {
-        flex-direction:column;
+        flex-direction: column;
     }
-    .architects-ancor{
+
+    .architects-ancor {
         gap: 30px;
     }
-    .Brand-description{
+
+    .Brand-description {
         padding: 0px 20px;
     }
-}
-@media screen and (min-width:576px) and ( max-width:960px) {
-    .navbar {
-        flex-direction:column;
+
+    .Features {
+        flex-direction: column;
     }
-    .architects-ancor{
+
+    .Features-team {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .Features-title {
+        text-align: center;
+        padding-right: 70px;
+        padding-left: 60px;
+    }
+
+    .Features-description {
+        text-align: center;
+    }
+
+    .Features-Quick {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .architects-ancor {
         gap: 70px;
     }
-    .Brand-description{
+
+    .Brand-description {
         padding: 0px 30px;
         line-height: 30px;
+    }
+
+    .Features {
+        flex-direction: column;
+    }
+
+    .Features-team {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .team {
+        width: 100%;
+    }
+
+    .Features-title {
+        text-align: center;
+        padding-right: 70px;
+        padding-left: 60px;
+    }
+
+    .Features-description {
+        text-align: center;
+    }
+
+    .Features-Quick {
+        text-align: center;
     }
 }
