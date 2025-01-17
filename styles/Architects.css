@@ -1,0 +1,95 @@
+body {
+    max-width: 1620px;
+    width: 1260px;
+    margin: 0px auto;
+
+}
+
+/* family-work-sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* share commpme style */
+.display-flex {
+    display: flex;
+}
+
+.work-sans {
+    font-family: "Work Sans", serif;
+}
+
+.pry-button {
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+}
+
+/* common color */
+.dark-one {
+    color: rgb(19, 19, 19);
+}
+
+.dark-two {
+    color: rgb(66, 66, 66);
+}
+
+.dark-three {
+    color: rgb(114, 114, 114);
+}
+
+/* header and navbar related style  */
+header {
+    background: rgba(255, 144, 14, 0.1);
+    border-radius: 8px;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.architects {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.architects-ancor {
+    gap: 30px;
+}
+
+.name {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/*Brand New Group of Architects */
+.Brand {
+    text-align: center;
+}
+
+.Brand-title {
+    font-size: 3.8rem;
+    font-weight: 900;
+}
+
+.Brand-description {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: -30px;
+    padding: 0px 250px 0px 250px;
+
+}
+
+#Explore {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
