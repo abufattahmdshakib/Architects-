@@ -147,13 +147,15 @@ header {
     }
 
     .architects-ancor {
-        gap: 30px;
+        gap: 20px;
     }
 
     .Brand-description {
         padding: 0px 20px;
     }
-
+    .banner{
+        width: 100%;
+    }
     .Features {
         flex-direction: column;
     }
@@ -192,7 +194,9 @@ header {
         padding: 0px 30px;
         line-height: 30px;
     }
-
+.banner{
+    width: 100%;
+}
     .Features {
         flex-direction: column;
     }
