@@ -1,7 +1,15 @@
-body {
-    max-width: 1300px;
+body{
+    margin: 0px;
+}
+header{
+    max-width: 1600px;
     margin: 0px auto;
-
+    background: rgba(255, 144, 14, 0.1);
+    border-radius: 8px;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
 }
 
 /* family-work-sans */
@@ -35,11 +43,6 @@ body {
 }
 
 /* header and navbar related style  */
-header {
-    background: rgba(255, 144, 14, 0.1);
-    border-radius: 8px;
-}
-
 .navbar {
     justify-content: space-between;
     align-items: center;
@@ -290,13 +293,18 @@ header {
 /* Responsive Media Query */
 
 @media screen and (max-width:576px) {
-
+    .container{
+        width:auto;
+        margin: 0px auto;
+    }
     .navbar {
         flex-direction: column;
+        /* width: 80%; */
     }
 
     .architects-ancor {
         gap: 20px;
+
     }
 
     .Brand-description {
@@ -387,8 +395,13 @@ header {
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
+    .container{
+        width:auto;
+        margin: 0px auto;
+    }
     .navbar {
         flex-direction: column;
+        width: 90%;
     }
 
     .architects-ancor {
